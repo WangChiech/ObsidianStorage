@@ -1,53 +1,53 @@
 # learn-JavaScript
 
-[强类型与弱类型、静态类型与动态类型](./doc/强类型与弱类型、静态类型与动态类型.md)
+[强类型与弱类型、静态类型与动态类型](强类型与弱类型、静态类型与动态类型.md)
 [[强类型与弱类型、静态类型与动态类型]]
 
 ## 词法、语法
 ### 编译时词法
 
-[词法文法](./doc/词法文法.md)
+[词法文法](词法文法.md)
 
 ### 运行时语法
 
-[值类型](./doc/值类型.md)
+[值类型](值类型.md)
 
-[表达式和操作符](./doc/表达式和操作符.md)
+[表达式和操作符](表达式和操作符.md)
 
-[类型转换](./doc/类型转换.md)
+[类型转换](类型转换.md)
 
-[声明](./doc/声明.md)
+[声明](声明.md)
 
-[语句](./doc/语句.md)
+[语句](语句.md)
 
-[对象](./doc/对象.md)
+[对象](对象.md)
 
-[函数](./doc/函数.md)
+[函数](函数.md)
 
-[模块](./doc/模块.md)
+[模块](模块.md)
 
-[严格模式](./doc/严格模式.md)
+[严格模式](严格模式.md)
 
 ## 运行时机制与特性
 
 
 ## 内置对象
 
-[String](./doc/String.md)
+[String](String.md)
 
-[Number](./doc/Number.md)
+[Number](Number.md)
 
-[BigInt](./doc/BigInt.md)
+[BigInt](BigInt.md)
 
-[Boolean](./doc/Boolean.md)
+[Boolean](Boolean.md)
 
-[Symbol](./doc/Symbol.md)
+[Symbol](Symbol.md)
 
-[Object](./doc/Object.md)
+[Object](Object.md)
 
-[Function](./doc/Function.md)
+[Function](Function.md)
 
-[Array](./doc/Array.md)
+[Array](Array.md)
 
 ## 面向对象编程
 
@@ -55,52 +55,52 @@
 
 ## 手写实现
 
-[Promise 实现](./doc/Promise实现.md)
+[Promise 实现](Promise实现.md)
 
-[柯里化](./doc/柯里化.md)
+[柯里化](柯里化.md)
 
 ## DOM
 
-[DOM](./doc/Document.md)
+[DOM](Document.md)
 
 
 ## 宿主环境
 
-[浏览器工作原理](./doc/浏览器工作原理.md)
+[浏览器工作原理](浏览器工作原理.md)
 
-[JavaScript 引擎基本原理_V8](./doc/JavaScript引擎基本原理_V8.md)
+[JavaScript 引擎基本原理_V8](JavaScript引擎基本原理_V8.md)
 
-[JavaScript 运行时环境](./doc/JavaScript运行时环境.md)
+[JavaScript 运行时环境](JavaScript运行时环境.md)
 
-[事件循环](./doc/事件循环.md)
+[事件循环](事件循环.md)
 
-[内存管理与垃圾回收](./doc/内存管理与垃圾回收.md)
+[内存管理与垃圾回收](内存管理与垃圾回收.md)
 
-[执行上下文](./doc/执行上下文.md)
+[执行上下文](执行上下文.md)
 
-[call stack](./doc/callStack.md)
+[call stack](callStack.md)
 
 [作用域与作用域链]()
 
-[闭包](./doc/闭包.md)
+[闭包](闭包.md)
 
-[对象之快慢属性](./doc/对象之快慢属性与隐藏类.md)
+[对象之快慢属性](对象之快慢属性与隐藏类.md)
 
 
-[数组](./doc/数组.md)
+[数组](数组.md)
 
 [script 之 defer、async、module](script之defer、async、module.md)
 
 
-[对象之内联缓存](./doc/对象之内联缓存.md)
+[对象之内联缓存](对象之内联缓存.md)
 ## 性能优化
 
-[](./doc/性能优化.md)
+[](性能优化.md)
 
-[Performance 面板](./doc/Performance面板.md)
+[Performance 面板](Performance面板.md)
 ## 函数式编程
 
-[函数式编程](./doc/函数式编程.md)
+[函数式编程](函数式编程.md)
 
 
 

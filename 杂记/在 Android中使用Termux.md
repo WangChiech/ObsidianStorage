@@ -137,4 +137,9 @@ termux-setup-storage
 3. 配置 SSH 密钥（如需远程仓库操作）。
     
 4. 克隆、提交或推送代码到远程仓库。
-    
+5. 撤销更改
+			```
+			git restore . // 仅撤销工作目录更改
+			git restore --staged . // 仅撤销已暂存的更改
+			git reset --hard // 撤销所有未提交的更改
+			```

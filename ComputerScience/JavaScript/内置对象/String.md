@@ -74,7 +74,7 @@
     - 如果找到了 searchString，则返回最后一次出现的索引，否则返回 -1
     - 查找区间 [0, position]
     - position 默认为 +Infinity，position >length -1 => length -1；position < 0 => 0
-- String.prototype.search：`search(regexp)`
+- ==String.prototype.search：`search(regexp)`==
     - regexp 为正则或具有  `Symbol.search` 方法的对象
     - 字符串匹配 regexp，如果匹配成功，则返回正则表达式在字符串中首次匹配的索引；否则，返回 -1
     - str.search(obj) 结果为 obj[Symbol.search](str) 的返回值
@@ -103,12 +103,12 @@
     - 返回一个新的字符串，表示调用字符串根据特定区域设置的大小写映射规则转换得到的大写形式
 - String.prototype.toLocaleLowerCase：`toLocaleLowerCase([locales])`
     - 返回一个新的字符串，表示调用字符串根据特定区域设置的大小写映射规则转换得到的小写形式
-- String.prototype.replace：`replace(pattern, replacement)`
+- ==String.prototype.replace：`replace(pattern, replacement)`==
     - pattern 为字符串或具有 `Symbol.replace` 方法的对象（正则具有`Symbol.replace` 方法）
     - replacement 为字符串或函数，为函数时，最终替换为函数调用（pattern为参数）的返回值
     - 返回一个新的字符串，其中一个、多个或所有的匹配项都被指定的替换项替换
     - 默认替换第一个匹配。若为正则并有 g 标志，则替换全部匹配
-- String.prototype.replaceAll：`replaceAll(pattern, replacement)`
+- ==String.prototype.replaceAll：`replaceAll(pattern, replacement)`==
     - pattern 为字符串或具有 `Symbol.replace` 方法的对象（正则）
     - replacement 为字符串或函数，为函数时，最终替换为函数调用（pattern为参数）的返回值
     - 返回一个新字符串，其中所有匹配 pattern 的部分都被替换为 replacement
@@ -136,18 +136,18 @@
     - 返回一个去除末尾空白字符的字符串
 
 #### 分割成数组
-- String.prototype.split：`split(separator[, limit])`
+- ==String.prototype.split：`split(separator[, limit])`==
     - separator 可以是 undefined，一个字符串，或者一个具有 Symbol.split 方法的对象（正则）
     - limit 返回的字符串数组中的字符串最大个数
     - 返回在给定字符串中出现 separator 的每一个点上进行分割而成的字符串数组
 
 #### 在字符串中提取匹配项
-- String.prototype.match：`match(regexp)` [MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String/match)
+- ==String.prototype.match：`match(regexp)` [MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String/match)==
     - regexp 为正则或具有  `Symbol.match` 方法的对象
     - 返回 调用 `Symbol.match` 方法的返回值（数组）
     - 当使用 g 标志全局匹配时，返回的结果为**匹配的字符数组**
     - 当没有使用 g 标志时，值返回第一个完整匹配，但会讲其捕获组相关信息添加到 结果数组的属性上
-- String.prototype.matchAll：`matchAll(regexp)`
+- ==String.prototype.matchAll：`matchAll(regexp)`==
     - regexp 为正则或具有  `Symbol.matchAll` 方法的对象
     - regexp 若为正则，则必须设置 g 标志，否则报错
     - 返回一个匹配结果的可迭代迭代器对象（它不可重新开始）
@@ -158,7 +158,7 @@
 - String.prototype.isWellFormed：`isWellFormed`
     - 如果字符串不包含单独代理项，返回 true，否则返回 false
 - String.prototype.toWellFormed：`toWellFormed()`
-    - 返回一个将**单独代理项**替换为**Unicode字符`U+FFFD`**的新字符串
+    - 返回一个将**单独代理项**替换为**Unicode字符 `U+FFFD` **的新字符串
 - String.prototype.normalize：`normalize([form])` [MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String/normalize)
     - form 默认为 'NFC'，取值为 "NFC"、"NFD"、"NFKC" 或 "NFKD" 其中之一，用于指定 Unicode 标准化形式
     - 返回一个包含给定字符串的 Unicode 标准化形式的字符串

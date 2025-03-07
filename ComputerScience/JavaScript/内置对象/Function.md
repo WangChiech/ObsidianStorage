@@ -66,7 +66,7 @@ new (Function.prototype)() // Function.prototype is not a constructor
 
 `{ value: 0, writable: false, enumerable: false, configurable: true }`
 
-### 实例方法
+### 方法
 
 #### call
 
